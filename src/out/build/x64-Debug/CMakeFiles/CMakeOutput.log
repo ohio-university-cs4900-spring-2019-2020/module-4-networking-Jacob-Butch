@@ -1,0 +1,125 @@
+The system is: Windows - 10.0.17763 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.24.28315 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.24.28315 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f7794 && [1/2] Building C object CMakeFiles\cmTC_f7794.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_f7794.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d1cba && [1/2] Building C object CMakeFiles\cmTC_d1cba.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_d1cba.exe
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_42458 && [1/2] Building CXX object CMakeFiles\cmTC_42458.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_42458.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5c205 && [1/2] Building CXX object CMakeFiles\cmTC_5c205.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_5c205.exe
+
+
+
+Determining if the AFTR_CONFIG_USE_FREE_TYPE_GL_FONTS exist passed with the following output:
+Change Dir: C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b21a8 && [1/2] Building C object CMakeFiles\cmTC_b21a8.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_b21a8.exe
+
+
+File C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/include/aftr/AftrConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AFTR_CONFIG_USE_FREE_TYPE_GL_FONTS
+  return ((int*)(&AFTR_CONFIG_USE_FREE_TYPE_GL_FONTS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the AFTR_CONFIG_USE_ASSIMP exist passed with the following output:
+Change Dir: C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_38631 && [1/2] Building C object CMakeFiles\cmTC_38631.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_38631.exe
+
+
+File C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Users/butch/Desktop/OU Schoolwork/CS4900/main/include/aftr/AftrConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AFTR_CONFIG_USE_ASSIMP
+  return ((int*)(&AFTR_CONFIG_USE_ASSIMP))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
