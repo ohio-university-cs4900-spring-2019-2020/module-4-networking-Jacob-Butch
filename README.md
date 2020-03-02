@@ -10,3 +10,5 @@ To stop typing, simply press '/' again;
 
 When not typing, you can press the 'f' key to start driving the warthog around.
 While driving it around, you will notice its position and direction will be synchronized in the other instance.
+
+Youtube video: https://youtu.be/YBmu1haIjY4
